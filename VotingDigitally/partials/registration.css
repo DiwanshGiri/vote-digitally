@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    background-image: url(registration.jpg);
+    background-size: cover; 
+    background-position: center; 
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 350px;
+    padding: 20px;
+    opacity: 0.8;
+  }
+  
+  .input-field select {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #757575;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .input-field label {
+    color: #000;
+  }
+  
